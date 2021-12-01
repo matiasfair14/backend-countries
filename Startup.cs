@@ -34,7 +34,7 @@ namespace testCountriesApi
         {
             app.UseCors(options =>
            {
-               options.WithOrigins("https://localhost:44321", "https://backend-countries.herokuapp.com");
+               options.WithOrigins("https://localhost:44321", "https://backend-countries.herokuapp.com", "https://awesome-mayer-060225.netlify.app");
                options.AllowAnyMethod();
                options.AllowAnyHeader();
            });
